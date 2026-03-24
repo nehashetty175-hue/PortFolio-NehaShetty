@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Neha Shetty</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+	<style>
+		/* CARDS DESIGN */
+		.card-modern {
+			background: #1a1a1a;
+			padding: 20px;
+			border-radius: 15px;
+			transition: 0.3s;
+			height: 100%;
+		}
+
+		.card-modern:hover {
+			transform: translateY(-8px);
+			box-shadow: 0 10px 25px rgba(255, 189, 57, 0.2);
+		}
+
+		/* SECTION TITLE */
+		.section-title {
+			text-align: center;
+			font-size: 32px;
+			margin-bottom: 40px;
+		}
+
+		/* GRID FIX */
+		.grid-2 {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+		}
+
+		@media(max-width:768px) {
+			.grid-2 {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		body {
+			line-height: 1.6;
+		}
+
+		/* Navbar */
+		.navbar {
+			padding: 15px 0;
+		}
+
+		/* Remove unwanted spacing */
+		.ftco-section {
+			padding: 40px 0;
+		}
+
+		/* Headings */
+		.heading-section h2 {
+			font-weight: 700;
+		}
+
+		/* About section fix */
+		.about-mf .box-shadow-full {
+			padding: 2rem;
+		}
+
+		/* Smooth links */
+		a {
+			transition: 0.3s;
+		}
+
+		a:hover {
+			color: #ffbd39;
+		}
+
+		/* Project Cards */
+		.project-card {
+			background: #1a1a1a;
+			border-radius: 12px;
+			overflow: hidden;
+			transition: 0.3s;
+		}
+
+		.project-card:hover {
+			transform: translateY(-8px);
+			box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+		}
+
+		.project-img {
+			height: 200px;
+			background-size: cover;
+			background-position: center;
+		}
+
+		.project-content {
+			padding: 15px;
+			text-align: center;
+		}
+
+		.project-content h4 {
+			color: #fff;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		.project-content p {
+			font-size: 14px;
+			color: #ccc;
+		}
+
+		/* Remove extra margins */
+		.row {
+			margin-bottom: 0;
+		}
+
+		.hero-img {
+			height: 680px;
+			/* you can adjust */
+			background-size: cover;
+			background-position: center;
+		}
+
+		.heading-section .big {
+			font-size: 60px;
+			/* reduce size */
+			opacity: 0.1;
+		}
+
+		body {
+			background: #0d0d0d;
+			color: #fff;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		/* HERO */
+		.hero-modern {
+			height: 100vh;
+			display: flex;
+			align-items: center;
+		}
+
+		.hero-title {
+			font-size: 50px;
+			font-weight: 700;
+		}
+
+		.hero-sub {
+			color: #ffbd39;
+			margin-bottom: 15px;
+		}
+
+		.hero-desc {
+			color: #bbb;
+			margin-bottom: 25px;
+		}
+
+		.hero-img {
+			height: 420px;
+			border-radius: 20px;
+			background-size: cover;
+			background-position: center;
+		}
+
+		/* BUTTONS */
+		.btn {
+			padding: 10px 20px;
+			border-radius: 25px;
+			margin-right: 10px;
+		}
+
+		.btn-primary {
+			background: #ffbd39;
+			border: none;
+			color: #000;
+		}
+
+		.btn-outline-light {
+			border: 1px solid #fff;
+		}
+
+		/* SECTION SPACING */
+		section {
+			padding: 60px 0;
+		}
+
+		#resume-section {
+			padding: 80px 0;
+		}
+
+		.resume-preview {
+			width: 100%;
+			height: 500px;
+			background: #111;
+			border-radius: 12px;
+			overflow: hidden;
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+			margin-bottom: 25px;
+		}
+
+		.resume-preview iframe {
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+
+		.resume-buttons .btn {
+			margin: 10px;
+			padding: 10px 20px;
+			border-radius: 25px;
+		}
+	</style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Neha Shetty</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#certification-section"
+							class="nav-link"><span>Certifications</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="hero-modern">
+		<div class="container">
+			<div class="row align-items-center">
+
+				<div class="col-md-6">
+					<h1 class="hero-title">Hi, I'm Neha Shetty</h1>
+					<h3 class="hero-sub">Data Analyst</h3>
+
+					<p class="hero-desc">
+						Turning raw data into meaningful insights using Python, SQL & Visualization tools.
+					</p>
+
+					<div class="hero-buttons">
+						<a href="https://github.com/nehashetty175-hue" class="btn btn-primary">View Projects</a>
+						<a href="#contact-section" class="btn btn-outline-light">Contact Me</a>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="hero-img"
+						style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200');">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="about-section">
+		<div class="container">
+			<div class="about-card">
+
+				<h2>About Me</h2>
+				<p>
+					I am a passionate Data Analyst fresher skilled in Python, SQL, Power BI and Machine Learning.
+					I enjoy solving business problems using data-driven insights.
+				</p>
+
+				<div class="about-grid">
+					<div><b>🎓 Education:</b> BCA</div>
+					<div><b>📍 Location:</b> Pune</div>
+					<div><b>💻 Tools:</b> Power BI, Tableau</div>
+					<div><b>🌐 Languages:</b> English, Hindi, Marathi</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="education-section">
+		<div class="container">
+			<h2 class="section-title">Education</h2>
+
+			<div class="grid-2">
+
+				<div class="card-modern">
+					<h4>Bachelor of Computer Application</h4>
+					<p>S.N.D.T Women's University</p>
+					<small>2022 - 2025</small>
+					<p>Grade: First Class Distinction</p>
+				</div>
+
+				<div class="card-modern">
+					<h4>Higher Secondary School</h4>
+					<p>S.N.D.T Kanyashala</p>
+					<small>2020 - 2022</small>
+					<p>Grade: First Class Distinction</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="resume-section">
+		<div class="container text-center">
+
+			<!-- TITLE -->
+			<h2 style="font-weight:700;">My Resume</h2>
+			<p style="color:#bbb; margin-bottom:30px;">
+				View or download my complete professional resume
+			</p>
+
+			<!-- RESUME PREVIEW -->
+			<div class="resume-preview">
+				<iframe src="resume.pdf" frameborder="0"></iframe>
+			</div>
+
+			<!-- BUTTONS -->
+			<div class="resume-buttons">
+				<a href="resume.pdf" download class="btn btn-primary">Download Resume</a>
+				<a href="resume.pdf" target="_blank" class="btn btn-outline-light">Open Full Screen</a>
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<section id="project-section">
+		<div class="container">
+
+			<h2 class="section-title">Projects</h2>
+
+			<div class="row">
+
+				<!-- Sales -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="https://github.com/nehashetty175-hue/Sales-Customer-Analytics-Project">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>Sales Customer Analytics</h4>
+							<p>Analyzed customer purchase behavior and sales trends to generate business insights.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- EdTech -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="https://github.com/nehashetty175-hue/Ed-Tech-Student-Learning-Project">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1584697964190-7383cbb77b0b?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>EdTech Student Analytics</h4>
+							<p>Exploratory data analysis on student performance and learning patterns.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Amazon Prime -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="https://github.com/nehashetty175-hue/Amazon-Prime-Video-Project">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>Amazon Prime Video Analysis</h4>
+							<p>Analyzed OTT content trends and built dashboards for user insights.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Telco Churn -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="https://github.com/nehashetty175-hue/Telco-Customer-Churn-Project">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>Telco Customer Churn</h4>
+							<p>Built ML model to predict customer churn and improve retention strategies.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Auto Insurance -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="https://github.com/nehashetty175-hue/Auto-Insurance-Claim-Project">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>Auto Insurance Claim</h4>
+							<p>Detected fraudulent insurance claims using classification techniques.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- OTT Moderation -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="https://github.com/nehashetty175-hue/Ott-Content-Moderation-Simplied-Project">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1581090700227-1e8b5a63e7c3?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>OTT Content Moderation</h4>
+							<p>Classified content sensitivity for safe streaming platforms.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Exam Cheating -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="https://github.com/nehashetty175-hue/Online-Exam-Cheating-Project">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1584697964190-7383cbb77b0b?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>Online Exam Cheating</h4>
+							<p>Identified cheating patterns using machine learning algorithms.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Cloud Server -->
+				<div class="col-md-4 mb-4">
+					<div class="project-card">
+						<a href="#">
+							<div class="project-img"
+								style="background-image:url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800');">
+							</div>
+						</a>
+						<div class="project-content">
+							<h4>Cloud Server Resource Consumption</h4>
+							<p>Analyzed CPU, memory and server load patterns to optimize performance.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+	<section id="certification-section">
+		<div class="container">
+			<h2 class="section-title">Certifications</h2>
+
+			<div class="grid-2">
+
+				<div class="card-modern">
+					<h4>Python for Data Science</h4>
+					<p>Completed training in Python, Pandas, NumPy & Data Analysis.</p>
+				</div>
+
+				<div class="card-modern">
+					<h4>Machine Learning</h4>
+					<p>Built ML models including classification and regression projects.</p>
+				</div>
+
+				<div class="card-modern">
+					<h4>SQL & Database</h4>
+					<p>Worked with joins, queries and database management.</p>
+				</div>
+
+				<div class="card-modern">
+					<h4>Power BI / Tableau</h4>
+					<p>Created dashboards and business insights visualizations.</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="github-section">
+		<div class="container text-center">
+
+			<div class="github-box">
+
+				<h2>Explore More Projects 🚀</h2>
+
+				<p>
+					I enjoy solving real-world business problems using data analytics,
+					machine learning, and visualization techniques.
+				</p>
+
+				<a href="https://github.com/nehashetty175-hue" target="_blank" class="btn btn-primary">
+					View My GitHub
+				</a>
+
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<section id="contact-section">
+		<div class="container text-center">
+
+			<h2>Contact Me</h2>
+
+			<p>📍 Pune, India</p>
+			<p>📧 nehashetty175@gmail.com</p>
+			<p>📞 +91 XXXXXXXX</p>
+
+		</div>
+	</section>
+
+
+
+
+	<!-- <footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	<!-- Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+						is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a
+							href="https://colorlib.com" target="_blank">Colorlib</a> -->
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	<!-- </p>
+				</div>
+			</div>
+		</div>
+	</footer> -->
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
