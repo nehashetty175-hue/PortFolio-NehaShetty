@@ -13991,3 +13991,60 @@ textarea.form-control {
   font-size: 14px;
   color: #ccc;
 }
+
+.resume-section {
+  padding: 100px 0;
+  background: #0d0d0d;
+}
+
+.resume-card {
+  max-width: 900px;
+  margin: auto;
+  background: #151515;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  box-shadow: 0 10px 30px rgba(255, 193, 7, 0.15);
+}
+
+.resume-icon {
+  font-size: 90px;
+  color: #ffc107;
+}
+
+.resume-content h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.resume-content p {
+  color: #bdbdbd;
+  margin-bottom: 20px;
+}
+
+.resume-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resume-content ul li {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.resume-buttons {
+  margin-top: 25px;
+}
+
+.resume-buttons a {
+  margin-right: 15px;
+}
+
+@media(max-width:768px) {
+  .resume-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
